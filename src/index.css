@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+  text-align: left;
+  width: 75px;
+}
+
+input[type=time] {
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+button {
+  width: 150px;
+  background: white;
+  height: 50px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 0;
+}
